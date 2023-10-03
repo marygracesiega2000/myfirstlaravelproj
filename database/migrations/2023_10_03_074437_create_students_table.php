@@ -21,7 +21,6 @@ return new class extends Migration
             $table->integer('year');
             $table->char('section', 1);
             $table->string('email')->unique();
-            
             $table->timestamps();
         });
     }
